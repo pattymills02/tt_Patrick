@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The metastable multiplier violates the timing delay needed by logic gates to accurately manipulate binary bits the way they're supposed to which causes cases of logic gates outputting a 1 and a 0 at the same time. 
 
 ## How to test
 
-Explain how to use your project
+First set all inputs to logic 0 and then set all of them to 1.
+Observe the metastable of the circuit befure it resolves itself to either a logic 1 or 0.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+4 switches are used to control the input along with an external clock and reset
+4 Leds are used on the output to display which combination of binary you are using at the input
